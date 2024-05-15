@@ -1,0 +1,86 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: #150b3e;
+  width: 30%;
+  height: 80%;
+  border-radius: 25px;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+}
+.profile-container {
+  background-color: #c7d2fe;
+  width: 60px;
+  height: 70px;
+  margin-left: 40px;
+  margin-top: 30px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.first-letter {
+  text-align: center;
+  color: #7c3aed;
+  font-size: 25px;
+  padding-top: 18px;
+  font-weight: bold;
+}
+
+.name {
+  color: #d4d2db;
+  margin-left: 20px;
+  margin-top: 50px;
+  font-size: 25px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.balance {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.amount {
+  color: #c4c4c4;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.rupees {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.withdraw {
+  color: #c4c4c4;
+  font-size: 30px;
+  font-family: 'Roboto';
+  margin-left: 20px;
+}
+.sum {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.denomination-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+  margin-right: 20px;
+}
